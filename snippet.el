@@ -1,4 +1,4 @@
-;;; snippet.el -- insert snippets of text into a buffer
+;;; snippet.el --- Insert snippets of text into a buffer
 
 ;; Copyright (C) 2005 Pete Kazmier
 
@@ -23,7 +23,7 @@
 ;; Free Software Foundation, Inc., 59 Temple Place - Suite 330,
 ;; Boston, MA 02111-1307, USA.
 
-;;; Description:
+;;; Commentary:
 
 ;; A quick stab at providing a simple template facility like the one
 ;; present in TextMate (an OSX editor).  The general idea is that a
@@ -618,3 +618,4 @@ See also `snippet-abbrev."
               collect (list 'snippet-abbrev table name template))))))
 
 (provide 'snippet)
+;;; snippet.el ends here
